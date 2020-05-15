@@ -76,7 +76,7 @@ That might be a reasonable decision on an exam or a quiz, but in this case that 
 
 It's important to be clear and thorough about what we want, but writing lists like this (especially in a classroom context) can be a catch-22.
 
-On the one hand, if we say this list is **mandatory** then many students will move through the list like it's a minfield. Stop! Don't move more than an inch! One wrong step and it's the end. "The end of what, exactly?", one might ask. [The world may never know.][youtube-tootsie-owl]
+On the one hand, if we say this list is **mandatory** then many students will move through the list like it's a minefield. Stop! Don't move more than an inch! One wrong step and it's the end. "The end of what, exactly?", one might ask. [The world may never know.][youtube-tootsie-owl]
 
 Other students will question what exactly "mandatory" means. They'll try to find exactly where the line is. What happens if I don't do one of the steps? Two of them? 5% of them? Are you *really* going to fail me, etc. if I don't do *one* of the steps?
 
@@ -108,7 +108,7 @@ You might be thinking, "Gosh, I'd better get all the steps correct, then! I'm go
 
 Before you go on, accept the following fact: no matter how carefully you follow along, you're going to mess up some of these steps.
 
-No, seriousy, **re-read that**. ☝️☝️☝️ You. Will. Mess. Up.
+No, seriously, **re-read that**. ☝️☝️☝️ You. Will. Mess. Up.
 
 Why? Each step has a million ways of going wrong, but only one way of going right. Here are a few scenarios:
 
@@ -121,7 +121,7 @@ That said, *messing up* is only a problem if you if you define **success** as pe
 
 1. Not letting the frustration of getting a step "wrong" overwhelm you
 1. Learning to recognize when something isn't going according to plan
-1. Starting to develop a set of practicies and tools to help re-orient yourself when something goes sideways (because something *always* goes sideways)
+1. Starting to develop a set of practices and tools to help re-orient yourself when something goes sideways (because something *always* goes sideways)
 1. Tackling the tasks ASAP so that those inevitable mistakes happen early and you can correct them without time pressure
 
 Time to install some software.
@@ -149,7 +149,7 @@ Remember, the tools we'll be installing fall into four, rough categories:
   >
   > On macOS, the download for VS Code is a `.zip` file. You will find it in your `Downloads` folder. When you double click it, it will extract an application file named `Visual Studio Code` into the `Downloads` folder.
   >
-  > It's important you move the `Visual Studio Code` application to the `Applications` folder before running it. Running a program from the `Downloads` folder can cause surprising behaivor down the road, e.g., settings not saving correctly, files getting saved to strange locations, etc.
+  > It's important you move the `Visual Studio Code` application to the `Applications` folder before running it. Running a program from the `Downloads` folder can cause surprising behavior down the road, e.g., settings not saving correctly, files getting saved to strange locations, etc.
 
 - [ ] 💬 **Discord** (<https://discord.com/>)
 
@@ -169,7 +169,7 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   - Narrated product walkthroughs or tutorials
   - Creating a visual record of a bug in someone's program so that you don't have to rely on a purely textual description. This could be a bug in your *own* program that you want help with or a bug in someone else's program that you want to point out to them.
-  - Recording + sharing a presentation if your internet is too unreiable to do it over Zoom
+  - Recording + sharing a presentation if your internet is too unreliable to do it over Zoom
 
 - [ ] 🔬 **Major Browsers**
 
