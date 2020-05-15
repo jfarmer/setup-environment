@@ -22,11 +22,11 @@ The bad news is that the management tools will be more like ~20% similar.
 - [If You Don't Read These Instructions, We'll Kill This Dog](#If-You-Dont-Read-These-Instructions-Well-Kill-This-Dog)
   - [Help Us Make Collaboration Easy](#Help-Us-Make-Collaboration-Easy)
   - [All Plans Are Doomed, but Especially This One](#All-Plans-Are-Doomed-but-Especially-This-One)
-- [Software To Install](#Software-To-Install)
+- [Services And Software](#Services-And-Software)
   - [All Platforms](#All-Platforms)
   - [Software - Mac](#Software---Mac)
   - [Software - Windows](#Software---Windows)
-- [Command Line](#Command-Line)
+- [Next Steps](#Next-Steps)
 
 ## If You Don't Read These Instructions, We'll Kill This Dog
 
@@ -126,20 +126,26 @@ That said, *messing up* is only a problem if you if you define **success** as pe
 
 Time to install some software.
 
-## Software To Install
+## Services And Software
 
 "Program", "application", and "software" are all synonyms here.
 
 Remember, the tools we'll be installing fall into four, rough categories:
 
-- 🛠️ **Management Tools** for interacting with and managing your development environment
-- ✏️ **Authoring Tools** for writing and navigating code
-- 🔬 **Viewing Tools** for viewing the results of your code
-- 💬 **Collaboration Tools** for communicating and working on code with other people
+- 🛠️**Management Tools** for interacting with and managing your development environment
+- ✏️**Authoring Tools** for writing and navigating code
+- 🔬**Viewing Tools** for viewing the results of your code
+- 💬**Collaboration Tools** for communicating and working on code with other people
 
 ### All Platforms
 
-- [ ] ✏️  **Visual Studio Code** (<https://code.visualstudio.com/>)
+- [ ] 💬**Sign Up For GitHub** (<https://github.com/>)
+
+  This doesn't require installing anything, but sign up for GitHub if you haven't, here: <https://github.com/>.
+
+  All coursework will be done through GitHub and the `git` command on your computer.
+
+- [ ] ✏️**Visual Studio Code** (<https://code.visualstudio.com/>)
 
   Visual Studio Code (also called **VS Code**) is an excellent code editor from Microsoft. This is what we will be using to write code.
 
@@ -151,7 +157,7 @@ Remember, the tools we'll be installing fall into four, rough categories:
   >
   > It's important you move the `Visual Studio Code` application to the `Applications` folder before running it. Running a program from the `Downloads` folder can cause surprising behavior down the road, e.g., settings not saving correctly, files getting saved to strange locations, etc.
 
-- [ ] 💬 **Discord** (<https://discord.com/>)
+- [ ] 💬**Discord** (<https://discord.com/>)
 
   Discord is a text and voice chat service designed primarily for people who play video games. It has "voice rooms", which make it easy to see when teachers are around and available to talk.
 
@@ -159,11 +165,13 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   Discord has a web-based client, but we recommend downloading and installing the desktop client.
 
-- [ ] 💬 **Zoom** (<https://zoom.us/download>)
+- [ ] 💬**Zoom** (<https://zoom.us/download>)
 
-  Zoom is a video conferencing tool that we'll use daily.
+  Zoom is a video conferencing tool that we'll use daily. Install it and make sure it works with your microphone. You can do this y opening up `Settings` and then clicking the `Audio` section.
 
-- [ ] 💬 **Loom** (<https://www.loom.com/>)
+  You should see `Test Speaker` and `Test Mic` buttons.
+
+- [ ] 💬**Loom** (<https://www.loom.com/>)
 
   Loom is a tool that makes it easy to make a recording of your computer screen and share it. These are called **screen recordings**. It can also (optionally) access your computer's microphone and camera, allowing you to overlay them on top of the screen recording.
 
@@ -175,7 +183,7 @@ Remember, the tools we'll be installing fall into four, rough categories:
   - Creating a visual record of a bug in someone's program so that you don't have to rely on a purely textual description. This could be a bug in your *own* program that you want help with or a bug in someone else's program that you want to point out to them.
   - Recording + sharing a presentation if your internet is too unreliable to do it over Zoom
 
-- [ ] 🔬 **Major Browsers**
+- [ ] 🔬**Major Browsers**
 
   Install all the major browsers. You will need to see how your websites look to other people. Yes, [Microsoft Edge is also available on macOS][url-msft-edge-macos].
 
@@ -185,7 +193,7 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   We recommend using either Chrome or Firefox for your main browser.
 
-- [ ] 💬 **Dropbox** (<https://db.tt/3dRXz3ry2I>)
+- [ ] 💬**Dropbox** (<https://db.tt/3dRXz3ry2I>)
 
   Dropbox is a "folder in the cloud" with a focus on sharing files. It's a great way to share large files between people and across computers.
 
@@ -195,27 +203,85 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
 ### Software - Mac
 
-- [ ] **Update macOS**
+- [ ] 🛠️**Update macOS**
 
   Make sure you are running either macOS Mojave (10.14) or Catalina (10.15). If you're not sure what version of macOS you're running, click the Apple Menu () in the upper right-hand corner of the screen and then click `About This Mac`.
 
-  <img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/apple-menu-about.png" alt="Screenshot of Apple Menu with About This Mac highlighted" width="100">
+  Here's a screenshot:
 
-- [ ] **Command Line Tools for XCode**
+  <img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/apple-menu-about.png" alt="Screenshot of Apple Menu with About This Mac highlighted" width="200">
 
-  The
+- [ ] 🔬**Open The Terminal**
 
-- [ ] 🛠️ **Homebrew** (<https://brew.sh/>)
+  We are going to start asking you to run commands from the command line. To do this, first follow [these instructions to open the Mac Terminal][url-mac-open-terminal].
+
+  The Terminal gives you access to the command line, a text-based interface to your computer. You will see a "prompt" that ends with `$`. You type commands and hit enter.
+
+  You can do virtually anything from the command line that you can via the graphical interface. You'll be spending a lot of time with a Terminal window open from here on out.
+
+- [ ] 🛠️**Command Line Tools for XCode**
+
+  From the command line, run the following command (type the text below at the `$` prompt and hit enter):
+
+  ```console
+  xcode-select --install
+  ```
+
+  If you see a message saying that "command line tools are already installed" then you're set! Otherwise, you should see a dialog window prompting you to install the Command Line Tools for XCode.
+
+  Follow the prompts to install it. This could take a while, it's a large download.
+
+- [ ] 🔬**Use `bash`**
+
+  There are many programs that implement a command-line interface. Such programs are called "shells" or "command shells."
+
+  When you open the Terminal this is the program you see running. It's what is displaying the prompt, waiting for you to type something, and running the right command when you hit enter.
+
+  Terminal is a program that runs a shell inside a graphical window that you can move around like any other window, but before graphical interfaces were common your computer would start up directly into a command shell.
+
+  In macOS Catalina (10.15), Apple changed the default shell from [bash][wiki-bash] to [zsh][wiki-zsh]. `zsh` has a lot going for it, but most online material assumes you're running `bash`. While you're learning, you should use `bash`.
+
+  Run the following command to ensure you're using `bash` when you open the Terminal:
+
+  ```console
+  chsh -s /bin/bash
+  ```
+
+  You will probably be prompted to enter a password, like this:
+
+  <img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/chsh-password-prompt.png" alt="Screenshot of chsh password prompt" width="400">
+
+  Type in the password for *your* account and hit enter.
+
+  If you see "no changed made" then you were already using `bash` and everything is fine. If you see no output then you successfully changed shells.
+
+  **After**, close the Terminal and open it again for any changes to take effect.
+
+  > ❗**Typing Passwords On The Command Line**
+  >
+  > When typing a password on the command line, you won't get *any* feedback that you're typing. No `*` or `●` or anything. You're still typing, though.
+  >
+  > Type your password as normal and hit enter. If you get an error, you mistyped your password, so try again!
+
+- [ ] 🛠️**Homebrew** (<https://brew.sh/>)
 
   Homebrew is a [package manager][wiki-package-manager], a tool for installing, upgrading, configuring, and uninstalling other software packages.
 
-  To install it,
+  To install it, follow the directions on <https://brew.sh/>.
 
-- [ ] 💬 **CloudApp** (<https://www.getcloudapp.com/>) or **MonoSnap** (<https://monosnap.com/>)
+- [ ] 🛠️**Install Homebrew Packages**
+
+  Once Homebrew is installed, open up the Terminal and run the following command to install `git` and `node`, two programs we'll be using throughout the course:
+
+  ```console
+  brew install git node
+  ```
+
+- [ ] 💬**CloudApp** (<https://www.getcloudapp.com/>) or **MonoSnap** (<https://monosnap.com/>)
 
   CloudApp and MonoSnap overlap a lot with Loom, but their core product revolves around quickly taking screenshots, annotating them, and automatically uploading them to the web.
 
-  Once you get used to the keyboard shortucts, you can take and share a screenshot of any window on your computer within seconds. Sharing a screenshot of your code or an error or a bug often communicates much more than a plain-English description.
+  Once you get used to the keyboard shortcuts, you can take and share a screenshot of any window on your computer within seconds. Sharing a screenshot of your code or an error or a bug often communicates much more than a plain-English description.
 
   You can also configure Dropbox to do this, but the screenshot images will count against your Dropbox storage limit.
 
@@ -225,11 +291,29 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   It really beats arranging things slowly with a mouse.
 
-- [ ]
-
 ### Software - Windows
 
-## Command Line
+- [ ] 🛠️**GitBash** (<https://gitforwindows.org/>)
+
+  Download and install GitBash. This installs a Mac-like command line interface as well as the `git` command (which we'll be talking about later).
+
+  Where Mac users use Terminal, you'll be using GitBash. We recommend you pin GitBash to your Windows task bar so that you can get to it quickly.
+
+## Next Steps
+
+Get comfortable opening the command line and running commands. We will talk more about this once the course begins, but it's best if you have some time playing around with it beforehand.
+
+Here are some tutorials that we like, but make sure you check which operating system they're referring to. Most of the general commands referenced will work on both macOS and Windows, but references to specific files and folders will depend on your operating system.
+
+For example, a tutorial that talks about the `/Applications` folder assumes you're on macOS while a tutorial that talks about `C:\Program Files\` assumes you're on Windows.
+
+> ❗**Be Careful**
+>
+> Be careful when running commands on the command line. In general, it has fewer "guardrails" than you might be used to.
+>
+> For example, the `rm` command (short for **r**e**m**ove) will delete a file or directory forever without any prompting and without sending it to Recycling. It's gone, full stop, and there's no way to get it back.
+>
+> If you're running a command that is intended destroy or modify a file, make sure you double and triple check the command. More importantly, always have a clear idea of what a command is *intended* to do. Otherwise, how will you know if it did what it was supposed to?
 
 [wiki-festina-lente]: https://en.wikipedia.org/wiki/Festina_lente
 [youtube-tootsie-owl]: https://www.youtube.com/watch?v=2IA5Cv_5-g8&t=6s
@@ -239,3 +323,5 @@ Remember, the tools we'll be installing fall into four, rough categories:
 [url-loom-pro-free]: https://support.loom.com/hc/en-us/articles/360006579637-Loom-Pro-Free-for-Students-and-Teachers
 [wiki-package-manager]: https://en.wikipedia.org/wiki/Package_manager
 [url-mac-open-terminal]: https://www.businessinsider.com/how-to-open-terminal-on-mac
+[wiki-bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[wiki-zsh]: https://en.wikipedia.org/wiki/Z_shell
