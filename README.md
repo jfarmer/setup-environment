@@ -31,7 +31,7 @@ The bad news is that the management tools will be more like ~20% similar.
 ## If You Don't Read These Instructions, We'll Kill This Dog
 
 <p align="center">
-![National Lampoon 'Cheeseface' Cover](lampoon-dog.jpg)
+<img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/lampoon-dog.jpg" alt="Cheeseface the National Lampoon doggo">
 </p>
 
 Is this list **mandatory**? If you're asking then the answer is almost certainly "yes". It's **critical** that you get this done, but getting it done because we "assigned" it will almost certainly mean you miss some essential steps.
