@@ -34,7 +34,7 @@ The bad news is that the management tools will be more like ~20% similar.
 <img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/lampoon-dog.jpg" alt="Cheeseface the National Lampoon doggo">
 </p>
 
-Is this list **mandatory**? If you're asking then the answer is almost certainly "yes". It's **critical** that you get this done, but getting it done because we "assigned" it will almost certainly mean you miss some essential steps.
+You might be asking yourself, "Is everything on this list **mandatory**?" If you're asking then the answer is almost certainly "yes". It's **critical** that you get this done, but getting it done because we "assigned" it will almost certainly mean you miss some essential steps.
 
 Here's the bottom line: we want everyone's computers set up similarly so that time spent working together involves, well, *working* together and not navigating the differences in our computer setups.
 
@@ -181,7 +181,11 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   We recommend using either Chrome or Firefox for your main browser.
 
+- [ ] https://db.tt/3dRXz3ry2I
+
 ### Software - Mac
+
+- [ ]
 
 ### Software - Windows
 
