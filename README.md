@@ -42,13 +42,15 @@ Even something as simple as sharing a screenshot and asking "Does anyone's scree
 
 In school, you are typically only ever producing work for yourself or the TA/professor who grades it. Heck, in many computer science courses the daily/weekly homework is graded automatically by a computer program — no humans in sight!
 
-In that environment, you don't suffer (much) for working in a way that makes collaboration harder. In this environment, you will. And having a different development setup *makes collaboration harder*.
+In that environment, it doesn't really hurt to work a way that makes collaboration harder. In this environment, it will hurt a lot.
 
-Here are some examples:
+Here are some ways that having a different development setup *makes collaboration harder*:
 
 - **Preparing written material**
 
-  Let's say you played around with a new tool/technology and want to write a how-to guide for your classmates. For all you know, everyone's machine is configured differently. How can you make sure everyone in the class can follow your guide without knowing all the possible ways people's machines might be configured?
+  Let's say you played around with a new tool/technology and want to write a how-to guide for your classmates. For all you know, everyone's machine is configured differently.
+
+  What will you do to
 
 - **Helping classmates when they're stuck**
 
@@ -58,7 +60,7 @@ Here are some examples:
 
   Imagine you're stuck on a project and ask a classmate for help. They offer offer download a copy of your project, run it on their own computer, and see if they can figure out what's going wrong.
 
-  But, oops, because your computer was set up differently, the steps to get the project running did not work as you expected. Rather than spending 60 minutes helping you, they spend the first 45 minutes just trying to get the project running and the last 15 minutes helping.
+  But, oops, because your computer was set up differently, the steps to get the project running did not work as you expected. Rather than spending 60 minutes helping you, they spend the first 45 minutes trying to get the project running and the last 15 minutes helping.
 
 In general, if you don't know that everyone's computers share a common development environment then you will always be paying a hefty "communication tax". Every time you want to interact with someone else around code you will have to make sure you're looking at and talking about the same thing. This applies to teachers, students, mentors — everyone.
 
@@ -84,7 +86,7 @@ On the other hand, if we say completing this list is **strongly recommended** bu
 >
 > — Dwight D. Eisenhower
 
-You're about to reach deep into your computer and do some things that might feel very dangerous. Here two are things to keep in mind:
+You're about to reach deep into your computer and do some things that might feel uncomfortable or even dangerous. Here two are things to keep in mind:
 
 1. **You won't destroy your computer**
 
@@ -94,9 +96,9 @@ You're about to reach deep into your computer and do some things that might feel
 
 1. **Yes, this is frustrating**
 
-   Learning to set up your development environment is one of the most *path-dependent* things you will do. Here, "path-dependent" means that the task involves (1) multiple steps which (2) have to be completed in a *specific order* and (3) the success of each step depends on all the previous steps being completed successfully.
+   Setting up your development environment for the first time is a long, *path-dependent* process. "Path-dependent" means that the task involves (1) multiple steps which (2) have to be completed in a *specific order* and where (3) the success of each step requires the success of all the previous steps.
 
-   Long, path-dependent tasks can be very frustrating because one mistake often means starting over from scratch. Few things are more frustrating than having to start over when the finish line is in sight.
+   Long, path-dependent tasks can quickly become overwhelming because one mistake often means starting over from scratch. And few things are more frustrating than having to start over when the finish line is in sight.
 
    If you want a game that explores this feeling directly, check out [*Getting Over It with Bennett Foddy*][youtube-getting-over-it]. We rate it six yams 🍠🍠🍠🍠🍠🍠.
 
@@ -152,7 +154,20 @@ Remember, the tools we'll be installing fall into four, rough categories:
   Discord is a text and voice chat service designed primarily for people who play video games. It has "voice rooms", which make it easy to see when teachers are around and available to talk.
 
   No wondering, "Should I bother the instructor right now? Are they busy?"
+
 - [ ] 💬 **Zoom** (<https://zoom.us/download>)
+
+- [ ] 💬 **Loom** (<https://www.loom.com/>)
+
+  Loom is a tool that makes it easy to make a recording of your computer screen and share it. These are called **screen recordings**. It can also (optionally) access your computer's microphone and camera, allowing you to overlay them on top of the screen recording.
+
+  [Loom Pro][url-loom-pro-free] is free for students and teachers.
+
+  Some examples of how you might use Loom:
+
+  - Narrated product walkthroughs or tutorials
+  - Creating a visual record of a bug in someone's program so that you don't have to rely on a purely textual description. This could be a bug in your *own* program that you want help with or a bug in someone else's program that you want to point out to them.
+  - Recording + sharing a presentation if your internet is too unreiable to do it over Zoom
 
 - [ ] 🔬 **Major Browsers**
 
@@ -175,3 +190,4 @@ Remember, the tools we'll be installing fall into four, rough categories:
 [youtube-bad-time]: https://www.youtube.com/watch?v=6Ls5j5iz2eA
 [youtube-getting-over-it]: https://www.youtube.com/watch?v=8Xqax_jv4p0
 [url-msft-edge-macos]: https://blogs.windows.com/windowsexperience/2020/01/15/new-year-new-browser-the-new-microsoft-edge-is-out-of-preview-and-now-available-for-download/
+[url-loom-pro-free]: https://support.loom.com/hc/en-us/articles/360006579637-Loom-Pro-Free-for-Students-and-Teachers
