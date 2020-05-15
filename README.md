@@ -157,7 +157,11 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   No wondering, "Should I bother the instructor right now? Are they busy?"
 
+  Discord has a web-based client, but we recommend downloading and installing the desktop client.
+
 - [ ] 💬 **Zoom** (<https://zoom.us/download>)
+
+  Zoom is a video conferencing tool that we'll use daily.
 
 - [ ] 💬 **Loom** (<https://www.loom.com/>)
 
@@ -181,9 +185,45 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   We recommend using either Chrome or Firefox for your main browser.
 
-- [ ] https://db.tt/3dRXz3ry2I
+- [ ] 💬 **Dropbox** (<https://db.tt/3dRXz3ry2I>)
+
+  Dropbox is a "folder in the cloud" with a focus on sharing files. It's a great way to share large files between people and across computers.
+
+  The basic (free) account lets you store 2GB of data.
+
+  You might already have a Dropbox account through your school. If not, sign up with the link above (<https://db.tt/3dRXz3ry2I>) and you'll get an extra 500MB of storage space.
 
 ### Software - Mac
+
+- [ ] **Update macOS**
+
+  Make sure you are running either macOS Mojave (10.14) or Catalina (10.15). If you're not sure what version of macOS you're running, click the Apple Menu () in the upper right-hand corner of the screen and then click `About This Mac`.
+
+  <img src="https://raw.githubusercontent.com/jfarmer/setup-environment/master/apple-menu-about.png" alt="Screenshot of Apple Menu with About This Mac highlighted" width="100">
+
+- [ ] **Command Line Tools for XCode**
+
+  The
+
+- [ ] 🛠️ **Homebrew** (<https://brew.sh/>)
+
+  Homebrew is a [package manager][wiki-package-manager], a tool for installing, upgrading, configuring, and uninstalling other software packages.
+
+  To install it,
+
+- [ ] 💬 **CloudApp** (<https://www.getcloudapp.com/>) or **MonoSnap** (<https://monosnap.com/>)
+
+  CloudApp and MonoSnap overlap a lot with Loom, but their core product revolves around quickly taking screenshots, annotating them, and automatically uploading them to the web.
+
+  Once you get used to the keyboard shortucts, you can take and share a screenshot of any window on your computer within seconds. Sharing a screenshot of your code or an error or a bug often communicates much more than a plain-English description.
+
+  You can also configure Dropbox to do this, but the screenshot images will count against your Dropbox storage limit.
+
+- [ ] 🛠️**Spectacle** (<https://www.spectacleapp.com/>)
+
+  This one *is* optional, but it's a handy, free tool that allows you to arrange your application windows via the keyboard. You can do things like make your code editor take up the left half of your screen and your browser window take up the right half of your screen.
+
+  It really beats arranging things slowly with a mouse.
 
 - [ ]
 
@@ -197,3 +237,5 @@ Remember, the tools we'll be installing fall into four, rough categories:
 [youtube-getting-over-it]: https://www.youtube.com/watch?v=8Xqax_jv4p0
 [url-msft-edge-macos]: https://blogs.windows.com/windowsexperience/2020/01/15/new-year-new-browser-the-new-microsoft-edge-is-out-of-preview-and-now-available-for-download/
 [url-loom-pro-free]: https://support.loom.com/hc/en-us/articles/360006579637-Loom-Pro-Free-for-Students-and-Teachers
+[wiki-package-manager]: https://en.wikipedia.org/wiki/Package_manager
+[url-mac-open-terminal]: https://www.businessinsider.com/how-to-open-terminal-on-mac
