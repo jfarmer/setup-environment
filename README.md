@@ -307,6 +307,11 @@ Here are some tutorials that we like, but make sure you check which operating sy
 
 For example, a tutorial that talks about the `/Applications` folder assumes you're on macOS while a tutorial that talks about `C:\Program Files\` assumes you're on Windows.
 
+- <https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course>
+- <https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line>
+- <https://www.youtube.com/watch?v=BFMyUgF6I8Y>
+- <https://www.learnenough.com/command-line-tutorial/basics>
+
 > ❗**Be Careful**
 >
 > Be careful when running commands on the command line. In general, it has fewer "guardrails" than you might be used to.
