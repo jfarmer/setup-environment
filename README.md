@@ -26,6 +26,7 @@ The bad news is that the management tools will be more like ~20% similar.
   - [All Platforms](#All-Platforms)
   - [Software - Mac](#Software---Mac)
   - [Software - Windows](#Software---Windows)
+- [Code-Friendly Defaults](#Code-Friendly-Defaults)
 - [Next Steps](#Next-Steps)
 
 ## If You Don't Read These Instructions, We'll Kill This Dog
@@ -299,6 +300,19 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   Where Mac users use Terminal, you'll be using GitBash. We recommend you pin GitBash to your Windows task bar so that you can get to it quickly.
 
+## Code-Friendly Defaults
+
+We wrote some scripts you can run to set up your computer to be more code-friendly. Follow the instructions here: <https://github.com/jfarmer/config-environment>
+
+This will have you use the `git clone` to get copies of the scripts. The instructions there include the commands required to run them. They do four things, primarily:
+
+1. Check whether you've installed all the necessary software
+1. Configure your Terminal/shell so that relevant information is more highlighted better
+1. Install some extensions for Visual Studio Code that we will use during the program
+1. On a Mac, change a few system defaults to make writing, copying, and pasting code less error-prone
+
+The scripts back up any files they modify, so you can always undo the changes they made.
+
 ## Next Steps
 
 Get comfortable opening the command line and running commands. We will talk more about this once the course begins, but it's best if you have some time playing around with it beforehand.
@@ -330,3 +344,4 @@ For example, a tutorial that talks about the `/Applications` folder assumes you'
 [url-mac-open-terminal]: https://www.businessinsider.com/how-to-open-terminal-on-mac
 [wiki-bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [wiki-zsh]: https://en.wikipedia.org/wiki/Z_shell
+[gh-config-environment]: https://github.com/jfarmer/config-environment
