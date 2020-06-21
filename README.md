@@ -28,6 +28,8 @@ The bad news is that the management tools will be more like ~20% similar.
   - [Software - Windows](#Software---Windows)
 - [Code-Friendly Defaults](#Code-Friendly-Defaults)
 - [Next Steps](#Next-Steps)
+  - [Concepts](#Concepts)
+  - [Tools](#Tools)
 
 ## If You Don't Read These Instructions, We'll Kill This Dog
 
@@ -315,6 +317,20 @@ The scripts back up any files they modify, so you can always undo the changes th
 
 ## Next Steps
 
+### Concepts
+
+We **strongly** recommend you watch [this talk by Richard Feynman on how computers work][youtube-feynman-computers]. It's an hour long but 100% worth it. He's delivering it to a non-technical audience, so no prior experience is required. If you remember the picture he paints while you code, you'll be surprised at how "natural" many things become.
+
+Here are some shorter videos of Richard Feynman on other subject that are all enjoyable and relevant:
+
+- Feynman on ["why" questions][feynman-why]
+- Feynman on [solving things without understanding][feynman-algebra]
+- Feynman on [knowing vs. understanding][feynman-understanding]
+- Feynman on [reading well][feynman-reading]
+- Feynman on [figuring out the rules of a game by playing it][feynman-chess]
+
+### Tools
+
 Get comfortable opening the command line and running commands. We will talk more about this once the course begins, but it's best if you have some time playing around with it beforehand.
 
 Here are some tutorials that we like, but make sure you check which operating system they're referring to. Most of the general commands referenced will work on both macOS and Windows, but references to specific files and folders will depend on your operating system.
@@ -345,3 +361,9 @@ For example, a tutorial that talks about the `/Applications` folder assumes you'
 [wiki-bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [wiki-zsh]: https://en.wikipedia.org/wiki/Z_shell
 [gh-config-environment]: https://github.com/jfarmer/config-environment
+[youtube-feynman-computers]: https://www.youtube.com/watch?v=EKWGGDXe5MA
+[feynman-why]: https://www.youtube.com/watch?v=36GT2zI8lVA
+[feynman-understanding]: https://www.youtube.com/watch?v=NM-zWTU7X-k
+[feynman-chess]: https://www.youtube.com/watch?v=o1dgrvlWML4
+[feynman-reading]: https://www.youtube.com/watch?v=M1TiXLGqlM4
+[feynman-algebra]: https://www.youtube.com/watch?v=VW6LYuli7VU
