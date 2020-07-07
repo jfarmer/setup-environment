@@ -302,6 +302,16 @@ Remember, the tools we'll be installing fall into four, rough categories:
 
   Where Mac users use Terminal, you'll be using GitBash. We recommend you pin GitBash to your Windows task bar so that you can get to it quickly.
 
+- [ ] 🛠️**Node** (<https://nodejs.org/en/download/>)
+
+  Download and install Node. This will let you run JavaScript outside of your browser, which is required by some of the other tools we will use.
+  
+  The default settings in the installer should be fine. If everything is successful, you should be able to open GitBash and see output when you run the following command:
+
+  ```console
+  which node
+  ```
+
 ## Code-Friendly Defaults
 
 We wrote some scripts you can run to set up your computer to be more code-friendly. Follow the instructions here: <https://github.com/jfarmer/config-environment>
