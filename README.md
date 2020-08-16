@@ -55,7 +55,7 @@ Here are some ways that having a different development setup *makes collaboratio
 
   Let's say you played around with a new tool/technology and want to write a how-to guide for your classmates. For all you know, everyone's machine is configured differently.
 
-  What will you do to
+  How do you know that the 7th step in your how-to guide will work the same on everyone's computer? Are you going to take into account all the possible ways a reader's computer might be configured? It's much easier if you _know_ everyone's setup is identical or similar enough that errors will be easy to catch and fix.
 
 - **Helping classmates when they're stuck**
 
