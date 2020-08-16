@@ -47,7 +47,7 @@ Even something as simple as sharing a screenshot and asking "Does anyone's scree
 
 In school, you are typically only ever producing work for yourself or the TA/professor who grades it. Heck, in many computer science courses the daily/weekly homework is graded automatically by a computer program — no humans in sight!
 
-In that environment, it doesn't really hurt to work a way that makes collaboration harder. In this environment, it will hurt a lot.
+In that environment, it doesn't really hurt to work in a way that makes collaboration harder. In this environment, it will hurt a lot.
 
 Here are some ways that having a different development setup *makes collaboration harder*:
 
